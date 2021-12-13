@@ -1,12 +1,12 @@
 import random
 allofthem = ["rock","paper","scissor"]
-tralofthem = ["tas","kagit","makas"]
+trallofthem = ["tas","kagit","makas"]
 score = 0
 while True:
 
     player = input("pick one: ")
     pc = random.choice(allofthem)
-    pctr = random.choice(tralofthem)
+    pctr = random.choice(trallofthem)
     if player == "score":
         print(f"your score: {score} ")
     elif player == pc or player == pctr:
